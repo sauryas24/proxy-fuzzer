@@ -1,0 +1,6 @@
+{
+  "proxy": "V2Proxy",
+  "logic": "V2Logic",
+  "imports": ["../src/bench/V2.sol"],
+  "deploy": "l = address(new V2Logic()); p = address(new V2Proxy(l, address(0xA11CE)));"
+}

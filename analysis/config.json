@@ -1,0 +1,6 @@
+{
+  "proxy": "src/Proxy.sol:Proxy",
+  "logic": "Logic",
+  "imports": ["../src/Proxy.sol", "../src/Logic.sol"],
+  "deploy": "l = address(new Logic()); p = address(new Proxy(l));"
+}

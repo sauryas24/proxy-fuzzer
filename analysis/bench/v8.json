@@ -1,0 +1,8 @@
+{
+  "proxy": "V8Proxy",
+  "logic": "V8Logic",
+  "imports": [
+    "../src/bench/V8.sol"
+  ],
+  "deploy": "l = address(new V8Logic()); p = address(new V8Proxy(l));"
+}

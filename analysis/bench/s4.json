@@ -1,0 +1,6 @@
+{
+  "proxy": "S4Proxy",
+  "logic": "S4Logic",
+  "imports": ["../src/bench/S4.sol"],
+  "deploy": "l = address(new S4Logic()); p = address(new S4Proxy(l));"
+}

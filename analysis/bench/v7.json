@@ -1,0 +1,8 @@
+{
+  "proxy": "V7Proxy",
+  "logic": "V7Logic",
+  "imports": [
+    "../src/bench/V7.sol"
+  ],
+  "deploy": "l = address(new V7Logic()); p = address(new V7Proxy(l));"
+}

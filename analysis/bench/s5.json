@@ -1,0 +1,6 @@
+{
+  "proxy": "TransparentUpgradeableProxy",
+  "logic": "S5Logic",
+  "imports": ["../src/bench/S5.sol"],
+  "deploy": "l = address(new S5Logic()); p = address(new TransparentUpgradeableProxy(l, address(0xA11CE), abi.encodeCall(S5Logic.initialize, (address(0xA11CE)))));"
+}

@@ -1,0 +1,6 @@
+{
+  "proxy": "S6Proxy",
+  "logic": "S6Logic",
+  "imports": ["../src/bench/S6.sol"],
+  "deploy": "l = address(new S6Logic()); p = address(new S6Proxy(l, address(0xA11CE)));"
+}

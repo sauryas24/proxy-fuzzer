@@ -1,0 +1,6 @@
+{
+  "proxy": "S1Proxy",
+  "logic": "S1Logic",
+  "imports": ["../src/bench/S1.sol"],
+  "deploy": "l = address(new S1Logic()); p = address(new S1Proxy(l));"
+}

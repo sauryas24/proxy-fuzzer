@@ -1,0 +1,6 @@
+{
+  "proxy": "V5Proxy",
+  "logic": "V5Logic",
+  "imports": ["../src/bench/V5.sol"],
+  "deploy": "l = address(new V5Logic()); p = address(new V5Proxy(l));"
+}

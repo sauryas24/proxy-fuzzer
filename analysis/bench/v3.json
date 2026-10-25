@@ -1,0 +1,6 @@
+{
+  "proxy": "V3Proxy",
+  "logic": "V3Logic",
+  "imports": ["../src/bench/V3.sol"],
+  "deploy": "l = address(new V3Logic()); p = address(new V3Proxy(l, address(0xA11CE)));"
+}

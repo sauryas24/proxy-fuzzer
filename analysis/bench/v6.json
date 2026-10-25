@@ -1,0 +1,6 @@
+{
+  "proxy": "V6Proxy",
+  "logic": "V6Logic",
+  "imports": ["../src/bench/V6.sol"],
+  "deploy": "l = address(new V6Logic()); p = address(new V6Proxy(l, address(0xA11CE)));"
+}

@@ -1,0 +1,6 @@
+{
+  "proxy": "S2Proxy",
+  "logic": "S2Logic",
+  "imports": ["../src/bench/S2.sol"],
+  "deploy": "l = address(new S2Logic()); p = address(new S2Proxy(l));"
+}

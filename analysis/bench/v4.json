@@ -1,0 +1,6 @@
+{
+  "proxy": "V4Proxy",
+  "logic": "V4Logic",
+  "imports": ["../src/bench/V4.sol"],
+  "deploy": "l = address(new V4Logic()); p = address(new V4Proxy(l));"
+}

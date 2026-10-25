@@ -1,0 +1,6 @@
+{
+  "proxy": "S3Proxy",
+  "logic": "S3Logic",
+  "imports": ["../src/bench/S3.sol"],
+  "deploy": "l = address(new S3Logic()); p = address(new S3Proxy(l, address(0xA11CE)));"
+}

@@ -1,0 +1,8 @@
+{
+  "proxy": "S7Proxy",
+  "logic": "S7Logic",
+  "imports": [
+    "../src/bench/S7.sol"
+  ],
+  "deploy": "l = address(new S7Logic()); p = address(new S7Proxy(l));"
+}
